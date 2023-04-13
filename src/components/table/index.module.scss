@@ -1,0 +1,66 @@
+.gridContainer {
+  display: grid;
+  margin-bottom: 8px;
+}
+
+.gridHeader {
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 0px;
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+}
+
+.gridCell {
+  text-align: center;
+  padding: 8px 0px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 4px;
+}
+
+.pageButton {
+  width: 32px;
+  height: 1.5rem;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba($color: #000000, $alpha: 0.2);
+  cursor: pointer;
+
+  &--selected {
+    background-color: #ddd;
+  }
+}
+
+.pageButtonSpan {
+  width: 32px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.sizeSelect {
+  border: 0px;
+  height: 1.5rem;
+  width: 40px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.paginationTitle {
+  height: 1.5rem;
+  margin-right: 8px;
+  font-size: 0.9rem;
+  padding: 4px;
+  background-color: #fff;
+  border: 0px;
+}

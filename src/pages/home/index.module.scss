@@ -1,0 +1,32 @@
+.app {
+  padding: 24px;
+  height: calc(100vh - 48px);
+}
+
+.filter {
+  display: flex;
+  gap: 8px;
+  height: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.filterType {
+  width: 5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba($color: #000000, $alpha: 0.2);
+}
+
+.filterSearch {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba($color: #000000, $alpha: 0.2);
+}
+
+.filterSubmit {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba($color: #000000, $alpha: 0.2);
+  cursor: pointer;
+}
